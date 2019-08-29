@@ -1,0 +1,17 @@
+import personas.*
+import objetos.*
+
+
+test "test rosa" {
+
+	assert.notThat(rosa.leGusta(remera))
+	assert.that(rosa.leGusta(biblioteca))
+	
+}
+
+
+test "test juan" {
+
+		assert.notThat(juan.leGusta(remera))
+		assert.that(juan.leGusta(pelota))
+}
